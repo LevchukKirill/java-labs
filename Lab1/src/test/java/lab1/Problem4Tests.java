@@ -8,35 +8,35 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class Problem4Tests {
 
     @Test
-    void isGeometricProgression_input124816_expectedOutputTrue() {
+    void isGeometricProgression_test1() {
         // given
         String inputString = "1,2,4,8,16";
 
-        // expected True
+        // when True
 
-        // result
+        // then
         assertTrue(Problem4.isGeometricProgression(inputString));
     }
 
     @Test
-    void isGeometricProgression_input162814_expectedOutputTrue() {
+    void isGeometricProgression_test2() {
         // given
         String inputString = "16,2,8,1,4";
 
-        // expected True
+        // when True
 
-        // result
+        // then
         assertTrue(Problem4.isGeometricProgression(inputString));
     }
 
     @Test
-    void isGeometricProgression_input235_expectedOutputFalse() {
+    void isGeometricProgression_test3() {
         // given
         String inputString = "2,3,5";
 
-        // expected False
+        // when False
 
-        // result
+        // then
         assertFalse(Problem4.isGeometricProgression(inputString));
     }
 
