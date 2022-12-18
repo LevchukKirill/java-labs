@@ -18,10 +18,10 @@ public class Problem3Tests {
                 { 7, 8, 9 }
         };
 
-        // expected
+        // when
         int[] expectedOutputArray = { 1, 4, 7, 2, 5, 8, 3, 6, 9 };
 
-        // result
+        // then
         assertTrue(Arrays.equals(
                 Problem3.flattenMatrix(inputArray),
                 expectedOutputArray
@@ -38,10 +38,10 @@ public class Problem3Tests {
                 { 1, 6, 5, 1 }
         };
 
-        // expected
+        // when
         int[] expectedOutputArray = { 2, 4, 5, 4, 6, 9, 8, 3, 6, 7, 1, 0, 1, 6, 5, 1 };
 
-        // result
+        // then
         assertTrue(Arrays.equals(
                 Problem3.flattenMatrix(inputArray),
                 expectedOutputArray
