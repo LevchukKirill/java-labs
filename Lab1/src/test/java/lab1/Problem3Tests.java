@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class Problem3Tests {
 
     @Test
-    void flattenMatrix_inputShape3x3_expectedOutputShape9() {
+    void flattenMatrix_test1() {
         // given
         int[][] inputArray = {
                 { 1, 2, 3 },
@@ -29,7 +29,7 @@ public class Problem3Tests {
     }
 
     @Test
-    void flattenMatrix_inputShape2x5_expectedOutputShape10() {
+    void flattenMatrix_test2() {
         // given
         int[][] inputArray = {
                 { 2, 4, 5, 4 },
